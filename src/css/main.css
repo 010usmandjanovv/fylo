@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #1B2330;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+img {
+    display: inline-block;
+}
+
+span {
+    display: inline-block;
+}
+
+.container {
+    width: 1050px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* ===================================== HEADER START=============================== */
+
+.header-box {
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 75px;
+}
+
+.header-list {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.header-link {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* ===================================== HEADER END=============================== */
+
+
+/* ===================================== HERO BIG START=============================== */
+
+.hero-big-img {
+    margin-left: 200px;
+    margin-bottom: 36px;
+}
+
+.hero-big-title {
+    margin: 0 auto;
+    text-align: center;
+    width: 734px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 32px;
+}
+
+.hero-big-text {
+    margin: 0 auto;
+    text-align: center;
+    width: 589px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 32px;
+}
+
+.tac {
+    text-align: center;
+}
+
+.hero-big-link {
+    background: linear-gradient(152deg, #63E1D9 -150.21%, #34A0CD 170.03%);
+    padding: 15px 100px;
+    border-radius: 20px;
+}
+
+.button {
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 100px;
+}
+
+/* ===================================== HERO BIG END=============================== */
+
+/*  HERO SMALL START */
+
+.hero-small-list {
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 130px;
+}
+
+.hero-small-item {
+    width: 349px;
+    height: 215px;
+    margin-bottom: 60px;
+}
+
+.hero-small-img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.hero-small-title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.hero-small-text {
+    text-align: center;
+    width: 360px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+/* HERO SMALL END */
+
+/* PROCESS START */
+
+.process {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.process-title {
+    width: 406px;
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+
+.process-text {
+    width: 563px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 25px;
+}
+
+.process-link {
+    color: #62E0D9;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.line {
+    display: block;
+    width: 148px;
+    height: 1px;
+    background: #62E0D9;
+}
+
+/* PROCESS END */
+
+/* REVIEW START */
+
+.review {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.review-list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 200px;
+}
+
+.review-item {
+    width: 360px;
+    height: 200px;
+    background: #202A3C;
+    box-shadow: 5px 5px 8px 0px rgba(56, 56, 56, 0.10);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.review-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.box-title {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.box-text {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* REVIEW END */
+
+/* FOOTER START */
+
+.footer {
+    width: 100%;
+    height: 450px;
+    background: #0B1524;
+    padding: 40px;
+    position: relative;
+}
+
+.footer-order {
+    position: absolute;
+    top: -120px;
+    right: 320px;
+    width: 863px;
+    height: 275px;
+    background: #1B2330;
+    box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.25);
+    margin: 0 auto;
+    margin-bottom: 200px;
+}
+
+.footer-order-title {
+    margin-top: 42px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 16px;
+}
+
+.footer-order-text {
+    margin: 0 auto;
+    width: 673px;
+    text-align: center;
+    margin-bottom: 38px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.footer-form-link {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-order-form {
+    width: 55%;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 25px;
+}
+
+.footer-order-link {
+    padding: 15px;
+    text-align: center;
+    width: 30%;
+    background: linear-gradient(152deg, #63E1D9 -150.21%, #34A0CD 170.03%);
+    border-radius: 25px;
+}
+
+.footer-order-button {
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.footer-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 339px;
+}
+
+.footer-logo {
+    margin-top: 150px;
+    margin-left: -23px;
+}
+
+.footer-img {
+    margin-right: 22px;
+}
+
+.imges{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 110px;
+}
+
+.list-link{
+    margin-top: 30px;
+}
+
+.contact{
+    margin-top: 15px;
+}
+
+.footer-link {
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-bottom: 16px;
+}
+
+.about-us {
+    margin-top: 20px;
+}
+
+.about-us-link {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.contact-us-link {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+/* FOOTER END */
